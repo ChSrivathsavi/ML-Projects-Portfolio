@@ -1,0 +1,21 @@
+# Placeholder for customer clustering visualization
+# Generated using matplotlib from clustering analysis
+#
+# import matplotlib.pyplot as plt
+# import seaborn as sns
+#
+# # Scatter plot of customer clusters
+# plt.figure(figsize=(10, 6))
+# colors = ['red', 'blue', 'green', 'orange', 'purple']
+# for i in range(5):
+#     cluster_data = clustered_customers[clustered_customers['cluster'] == i]
+#     plt.scatter(cluster_data['Annual_Income_k$'], cluster_data['Spending_Score'], 
+#                c=colors[i], label=f'Cluster {i}', alpha=0.7)
+#
+# plt.title('Customer Segments - Mall Customers')
+# plt.xlabel('Annual Income (k$)')
+# plt.ylabel('Spending Score')
+# plt.legend()
+# plt.grid(True, alpha=0.3)
+# plt.savefig('outputs/plots/customer_clusters.png')
+# plt.close()

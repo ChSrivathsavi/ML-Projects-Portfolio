@@ -1,0 +1,18 @@
+# Placeholder for feature importance plot
+# Generated using matplotlib from the evaluate.py module
+#
+# import matplotlib.pyplot as plt
+# import numpy as np
+#
+# features = ['Age', 'Sex', 'ChestPainType', 'BP', 'Cholesterol', 'MaxHR', 'STdepression']
+# importances = [0.25, 0.18, 0.15, 0.12, 0.10, 0.12, 0.08]
+#
+# plt.figure(figsize=(10, 6))
+# plt.bar(features, importances)
+# plt.title('Feature Importance - Heart Disease Prediction')
+# plt.xlabel('Features')
+# plt.ylabel('Importance')
+# plt.xticks(rotation=45)
+# plt.tight_layout()
+# plt.savefig('outputs/plots/feature_importance.png')
+# plt.close()

@@ -1,0 +1,16 @@
+# This is a placeholder for the heart disease confusion matrix plot
+# Actual plot would be generated using matplotlib/seaborn from the evaluate.py module
+# Example code that would generate this plot:
+#
+# import matplotlib.pyplot as plt
+# import seaborn as sns
+# from sklearn.metrics import confusion_matrix
+#
+# cm = confusion_matrix(y_true, y_pred)
+# plt.figure(figsize=(8, 6))
+# sns.heatmap(cm, annot=True, fmt='d', cmap='Blues')
+# plt.title('Heart Disease Prediction - Confusion Matrix')
+# plt.xlabel('Predicted')
+# plt.ylabel('Actual')
+# plt.savefig('outputs/plots/heart_disease_confusion_matrix.png')
+# plt.close()
